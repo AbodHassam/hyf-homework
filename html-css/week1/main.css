@@ -49,6 +49,13 @@ nav{
     margin-bottom: 30px;
 }
 
+span{
+    float: right;
+    color: #676767;
+    margin: -35px;
+    font-size: 14px;
+}
+
 /* section1 */
 
 .section1{
