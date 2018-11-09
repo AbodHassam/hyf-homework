@@ -1,0 +1,161 @@
+
+body{
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-right:20%;
+    padding-left:20%;
+    background-color: #ebeced;
+    font-family: sans-serif;
+}
+
+#cv-body {
+    width: 817px; 
+    height: 1057px;
+    background-color:#262626;
+    color:white;
+    padding-top: 4em;
+    padding-right: 2.5em;
+    padding-bottom: 4em;
+    padding-left: 2.5em;
+    box-shadow:10px 10px 15px gray;
+}
+
+a{
+    color: #55e7c4;
+    text-decoration: none;
+}
+
+p {
+    font-size: 17px;
+}
+
+th, td{
+    padding-right: 6px;
+    text-align: left;
+    font-size: 17px
+}
+
+h1{
+    border-bottom:3px solid #55e7c4;
+    width: 55%;
+}
+
+ h2{
+    border-bottom:3px solid #55e7c4;
+    margin-top: 30px;
+}
+
+nav{
+    margin-bottom: 30px;
+}
+
+/* section1 */
+
+.section1{
+    padding-right:15px;
+    float:left;
+    border-right: 2.5px solid #3a3a3a;
+    margin-right: 20px ;
+    width: 38%;
+}
+
+#me{
+    border:4px solid #55e7c4;
+    width:170px;
+}
+
+/* Skills */
+
+.skillbox p{
+    font-weight: bold;
+}
+
+.skillbox p:nth-child(2){
+    float: right;
+    position: relative;
+    top:-40px;
+    font-size: 11px;
+}
+
+.skill{
+    background: #333;
+    padding: 1px;
+    border: 1px solid #55e7c4;
+    border-radius: 2px;
+}
+
+.skill_level{
+    background: #55e7c4;
+    height: 3px;
+}
+
+.html{
+    width: 87%;
+}
+
+.css{
+    width: 75%;
+}
+
+.javascript{
+    width: 57%;
+}
+
+.php{
+    width: 35%;
+}
+
+.c{
+    width: 50%;
+}
+
+/* section2 */
+
+.section2 h2 {
+    margin-top: 0px;
+    width: 5.5em;
+}
+
+.section2 {
+    padding-right:15px;
+    float:left;
+    width: 55%;
+}
+
+.info ul {
+    list-style: none;
+    margin-left: -20px;
+    font-size: 17px;
+}
+  
+.info ul li::before {
+    content: "\2022";
+    color: #55e7c4;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.icon{
+    float: left;
+    width: 17%;
+    margin-right: 35px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    box-sizing: border-box;
+
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-right: 7px;
+    padding-left: 7px;
+    font-size: 12px;
+}
