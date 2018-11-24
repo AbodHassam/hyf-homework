@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>index4</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style4.css" />
+</head>
+
+<body>
+    <!--logo and navigation-->
+    <img class="logo" src="https://onepiece-storage.storage.googleapis.com/assets/gfx/theme/logo-new.png" alt="logo">
+    <nav>
+        <a href="https://htmlpreview.github.io/?https://github.com/AbodHassam/hyf-homework/blob/master/html-css/week3/index1.html">Step1</a>
+        <a href="https://htmlpreview.github.io/?https://github.com/AbodHassam/hyf-homework/blob/master/html-css/week3/index2.html">Step2</a>
+        <a href="https://htmlpreview.github.io/?https://github.com/AbodHassam/hyf-homework/blob/master/html-css/week3/index3.html">Step3</a>
+        <a href="https://htmlpreview.github.io/?https://github.com/AbodHassam/hyf-homework/blob/master/html-css/week3/index4.html">Step4</a>
+    </nav>
+    <!--contents-->
+    <h1>Sign up to yourcustomtailor.com</h1>
+    <h2>Step 4/4 - Payment</h2>
+    <h4>Progress</h4>
+    <div class="progress">
+        <div class="progress-level"></div>
+    </div>
+    <p>Please fill in your payment data</p>
+    <form>
+        <div class="fill">
+            <label for="f-name">First name</label>
+            <input type="text" id="f-name" name="firstname" placeholder="Abod" required>
+        </div>
+        <div class="fill">
+            <label for="cname">Name on card</label>
+            <input type="text" id="cname" name="cardname" placeholder="Abod Hassam" required><br>
+            <label for="card-type">Card type</label>
+            <select name="card-type" id="card-type">
+                <option value="visa">visa</option>
+                <option value="mastercard">Master Card</option>
+                <option value="discover">Discover</option>
+            </select><br>
+            <label for="cc-number">Credit card number</label>
+            <input type="text" id="cc-number" name="cardnumber" title="Only numbers allowed. Exactly 16 digits." placeholder="1111-2222-3333-4444" pattern="\d{16}" required><br>
+            <label for="ex-month">Expiry month</label>
+            <input type="text" id="ex-month" name="expiry month" placeholder="September" required>
+            <label for="ex-year">Expiry year</label>
+            <input type="text" id="ex-year" name="expiry year" placeholder="2018" required><br>
+            <label for="ccv">CCV</label>
+            <input type="text" id="ccv" name="ccv" title="Only numbers allowed. Exactly 3 digits." placeholder="352" pattern="\d{3}" required>
+        </div>
+        <input type="submit" value="Next step" class="next">
+    </form>
+</body>
+
+</html>

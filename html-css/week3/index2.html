@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>index2</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style2.css" />
+</head>
+
+<body>
+    <!--logo and navigation-->
+    <img class="logo" src="https://onepiece-storage.storage.googleapis.com/assets/gfx/theme/logo-new.png" alt="logo">
+    <nav>
+        <a href="https://htmlpreview.github.io/?https://github.com/AbodHassam/hyf-homework/blob/master/html-css/week3/index1.html">Step1</a>
+        <a href="https://htmlpreview.github.io/?https://github.com/AbodHassam/hyf-homework/blob/master/html-css/week3/index2.html">Step2</a>
+        <a href="https://htmlpreview.github.io/?https://github.com/AbodHassam/hyf-homework/blob/master/html-css/week3/index3.html">Step3</a>
+        <a href="https://htmlpreview.github.io/?https://github.com/AbodHassam/hyf-homework/blob/master/html-css/week3/index4.html">Step4</a>
+    </nav>
+    <!--contents-->
+    <h1>Sign up to yourcustomtailor.com</h1>
+    <h2>Step 2/4 - how can we reach you?</h2>
+    <h4>Progress</h4>
+    <div class="progress">
+        <div class="progress-level"></div>
+    </div>
+    <p>We will probably need to stay in touch somehow. Let is know how we can reach you?</p>
+    <form action="https://s.codepen.io/Kurdator/debug/PxeeOK/bYMdyezGPZyr">
+        <div class="fill">
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" placeholder="+123456789" title="Only valid phone numbers is allowed" pattern="(?=.*\d).{10,}">
+        </div>
+        <div class="fill">
+            <label for="email">Email*</label>
+            <input type="email" name="email" id="email" placeholder="username@example.com" title="Fx. characters@characters.domain" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            <br>
+            <label for="password">Password*</label>
+            <input type="password" name="password" id="password" placeholder="password" pattern="(?=.*[a-z])(?=.*[A-Z]).{10,}" title="Must contain at least 10 characters, uppercase and lowercase letters" required><br>
+            <label for="re-password">Re-enter Password*</label>
+            <input type="password" name="re-password" id="re-password" placeholder="password" pattern="(?=.*[a-z])(?=.*[A-Z]).{10,}" required>
+        </div>
+        <p>I want to sign up for the newsletter</p>
+        <label>Weekly news</label>
+        <input type="radio" name="news" value="weekly" checked>
+        <label>Monthly news </label>
+        <input type="radio" name="news" value="monthly">
+        <label>Don't send me news</label>
+        <input type="radio" name="news" value="don't">
+        <input type="submit" value="Next step" class="next">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>index1</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style1.css" />
+</head>
+
+<body>
+    <!--logo and navigation-->
+    <img class="logo" src="https://onepiece-storage.storage.googleapis.com/assets/gfx/theme/logo-new.png" alt="logo">
+    <nav>
+        <a href="https://htmlpreview.github.io/?https://github.com/AbodHassam/hyf-homework/blob/master/html-css/week3/index1.html">Step1</a>
+        <a href="https://htmlpreview.github.io/?https://github.com/AbodHassam/hyf-homework/blob/master/html-css/week3/index2.html">Step2</a>
+        <a href="https://htmlpreview.github.io/?https://github.com/AbodHassam/hyf-homework/blob/master/html-css/week3/index3.html">Step3</a>
+        <a href="https://htmlpreview.github.io/?https://github.com/AbodHassam/hyf-homework/blob/master/html-css/week3/index4.html">Step4</a>
+    </nav>
+    <!--contents-->
+    <h1>Sign up to yourcustomtailor.com</h1>
+    <p>We can’t wait to help you improve your life-style and gain the attention from people around
+        you!</p>
+    <p>
+        Sign up below to save up to 70% on apparel, hand-bags and cosmetics. Our agents are busy <br>
+        picking the best offers that match your preferences and style. Every week we will send you a <br>
+        hand-picked selection - we just need to know a few details about your first…
+    </p>
+    <h2>Step 1/4 - tell us who you are?</h2>
+    <h4>Progress</h4>
+    <div class="progress">
+        <div class="progress-level"></div>
+    </div>
+    <p>Nice to meet you. Let’s spend a minute to get to know each other? Please enter the following:</p>
+    <form action="https://s.codepen.io/Kurdator/debug/eQrrGX/gaAeYZEJmveA">
+        <label for="f-name">First name*</label>
+        <input type="text" name="first name" id="f-name" placeholder="Abod" required>
+        <label for="l-name">Last name*</label>
+        <input type="text" name="last name" id="l-name" placeholder="Hassam" required><br>
+        <label for="country">Country</label>
+        <select name="country">
+            <option value="denmark">Denmark</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+        </select><br>
+        <label for="s-address">Street address*</label>
+        <input type="text" name="street address" id="s-address" placeholder="vidars.pl 34" required>
+        <label for="p-code">Post code*</label>
+        <input type="text" name="post code" id="p-code" placeholder="3650" pattern="(?=.*\d).{4}" title="only 4 numbers" required>
+
+        <div class="flex">
+            <br>
+            <p>Use the same address for billing and shipping? Uncheck below to fill out a separate shipping address</p>
+            <label>Shipping address</label>
+            <input type="checkbox" checked>
+            <div class="checked">
+                <p>Shipping address</p>
+
+                <label for="f-name2">First name*</label>
+                <input type="text" name="first name" id="f-name2" placeholder="Abod">
+                <label for="l-name2">Last name*</label>
+                <input type="text" name="last name" id="l-name2" placeholder="Hassam"><br>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="denmark">Denmark</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select><br>
+                <label for="s-address2">Street address*</label>
+                <input type="text" name="street address" id="s-address2" placeholder="vidars.pl 34">
+                <label for="p-code2">Post code*</label>
+                <input type="text" name="post code" id="p-code2" placeholder="3650">
+
+            </div>
+            <div class="comment">
+                <label class="description">Profile description</label>
+                <label class="description">
+                    Please provide a short
+                    description of yourself to be
+                    displayed on our social
+                    community pages.
+                </label>
+                <textarea name="profile description" rows="8" cols="60" placeholder="Write something.." maxlength="500"></textarea>
+            </div>
+
+        </div>
+        <input type="submit" onclick="location" value="Next step" class="next">
+    </form>
+</body>
+
+</html>

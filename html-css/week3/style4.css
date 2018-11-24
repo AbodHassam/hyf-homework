@@ -1,0 +1,70 @@
+body{
+    padding:20px 25%;
+    line-height: 25px;
+}
+
+.logo{
+    width:100px;
+}
+
+nav{
+    float: right;
+}
+
+nav a{
+    font-weight: bold;
+    color: black;
+    margin: 10px;  
+}
+
+nav a:hover{
+    color: #969696;
+}
+
+/*contents*/
+h1{
+    clear: both;
+}
+
+input , select{
+    margin: 10px;
+}
+
+.progress{
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 30px;
+}
+.progress-level{
+    background: #ccc;
+    width: 90%;
+    height: 100%;
+    animation: prog 2s linear forwards;
+}
+
+@keyframes prog{
+    0%{width: 45%;}
+    100%{width:90%;}
+}
+
+#ex-month , #ccv , #ex-year {
+    width: 40px;
+}
+
+.fill{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+#f-name{
+    margin-top: 92px;
+}
+
+.next{
+    padding: 10px;
+    border: 1px solid black;
+    background: #ccc;
+    float:right;
+    margin-bottom: 20px;
+}
