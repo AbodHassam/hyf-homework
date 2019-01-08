@@ -26,7 +26,7 @@ let bookInfo = {
 
 let covers={
     'the_lord_of_the_rings':'./covers/rings.jpg',
-    'the_call_of_the_wild':'./covers/call.jfif',
+    'the_call_of_the_wild':'./covers/call.jpg',
     'catch_22':'./covers/catch.jpg',
     'tom_jones':'./covers/tom.jpg',
     'emma':'./covers/emma.jpg',
@@ -34,7 +34,7 @@ let covers={
     'sybil':'./covers/sybil.jpg',
     'the_bridges_of_constantine':'./covers/bridges.jpg',
     'compass':'./covers/compass.jpg',
-    'moby_dick':'./covers/moby.JPG'
+    'moby_dick':'./covers/moby.jpg'
 };
     
 function myList() {
@@ -47,7 +47,7 @@ function myList() {
         let h1 = document.createElement('h1');
         let b = document.createElement('b');
         let p = document.createElement('p');
-        li.ids = bookIds[i];
+        li.id = bookIds[i];
         img.src = bookInfo[bookIds[i]]['cover'];
         img.alt = 'the cover';
         h1.innerHTML +=bookInfo[bookIds[i]]['title'];
