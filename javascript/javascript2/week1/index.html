@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div id="box">
+
+        <select name="error" id="selector">
+            <option>Select a mode</option>
+            <option>--Click button--</option>
+            <option>--Text written--</option>
+            <option>--Input changes--</option>
+            <option>-- Focus on input--</option>
+            <option>-- Mouseover onto input--</option>
+        </select>
+
+        <label id="error" for="selector">Please select the mode</label>
+
+        <div id="test">
+            <div id="click">
+                <label for="name">Enter your name : </label>
+                <input type="text" name="name" id="name">
+                <button type="submit" id="myBtn">check =></button>
+                <b id="spirit"></b>
+            </div>
+            <div id="written">
+                <label for="name1">Enter your name : </label>
+                <input type="text" name="name1" id="name1">
+                <b id="spirit1"></b>
+            </div>
+            <div id="changes">
+                <label for="name2">Enter your name : </label>
+                <input type="text" name="name2" id="name2">
+                <b id="spirit2"></b>
+            </div>
+            <div id="focus">
+                <label for="name3">Enter your name : </label>
+                <input type="text" name="name3" id="name3">
+                <b id="spirit3"></b>
+            </div>
+            <div id="mouseover">
+                <label for="name4">Enter your name : </label>
+                <input type="text" name="name4" id="name4">
+                <b id="spirit4"></b>
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
