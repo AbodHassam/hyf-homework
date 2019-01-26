@@ -12,7 +12,7 @@ console.log("The doubled numbers are", newNumbers); // [2, 6] */
 
 let numbers = [];
 for (let i =1 ; i < 40; i++) {
-    const num = numbers.push(i);  
+    numbers.push(i);  
 }
 
 console.log('%cArray of numbers','font-weight:bold;color:red');
