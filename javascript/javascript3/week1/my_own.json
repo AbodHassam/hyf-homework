@@ -1,0 +1,28 @@
+{
+    "laptops": [
+        {
+            "name": "Alienware 17 R5",
+            "price": "€1,611"
+        },
+        {
+            "name": "Dell G7 15 Gaming",
+            "price": "€1,142"
+        },
+        {
+            "name": "Asus ROG GU501",
+            "price": "$1,347"
+        },
+        {
+            "name": "Asus ROG Strix Hero II",
+            "price": "€1,492"
+        },
+        {
+            "name": "HP Omen 17",
+            "price": "€1,143"
+        },
+        {
+            "name": "MSI GS65 Stealth Thin",
+            "price": "€1,837"
+        }
+    ]
+}
