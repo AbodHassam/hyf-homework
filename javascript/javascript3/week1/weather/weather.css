@@ -1,0 +1,73 @@
+body{
+    font-size: 18px;
+    padding: 20px 120px 20px 120px;
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient(#2b2b94,#68b7ef,#6177a8,#f9aa4c);
+    color: #082231;
+}
+
+.box{
+    padding: 20px;
+    background-image: url('https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722375/night.png');
+    background-size: 100%;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #082231;
+    display: grid;
+    justify-content: center;
+}
+
+form{
+    padding: 40px;
+    text-align: center;
+}
+
+::placeholder{
+    color: #958989;
+}
+
+input{
+    background-color: #5f5cbf;
+    border: 0;
+    border-radius: 4px;
+    width: 230px;
+    color: #5ea1e1e3;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    padding: 0 40px 0 52px;
+}
+
+.get-weather , .get-my-weather{
+    background-color: transparent;
+    border: 0;
+    border-bottom:2px solid #3b060b;
+    color: wheat;
+}
+
+img{
+    vertical-align: middle;
+}
+
+p{
+    margin: 20px;
+    border-bottom: 2px solid #3b060b;
+    text-align: center;
+}
+
+span{
+    color:#790e18;
+}
+
+#loc{
+    display: none;
+    text-align: center;
+}
+
+/* #map{
+    width: 160px;
+    overflow: auto;
+    margin-right: -50px; 
+} */

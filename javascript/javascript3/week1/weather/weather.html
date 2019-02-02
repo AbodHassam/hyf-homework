@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The weather</title>
+    <link rel="stylesheet" type="text/css" href="weather.css" />
+</head>
+
+<body>
+    <div class="box">
+        <form>
+            <input type="text" name="cityInput" id="cityInput" placeholder="eg. Copenhagen...">
+            <button type="button" class="get-weather">Get weather</button>
+        </form>
+        <div id="outputs">
+            <div class="info" style="display:none;"></div>
+        </div>
+    </div>
+    <div class="box">
+        <form>
+            <button type="button" class="get-my-weather">Get my city weather</button>
+        </form>
+        <div id="outputs">
+            <div class="my-info" style="display:none;"></div>
+        </div>
+        <div id="loc">
+            Latitude: <span id="lat"></span>
+            <br>
+            Longitude: <span id="lon"></span>
+        </div>
+
+        <!-- <div id="map"></div> -->
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUCZftFv_8qQlHNI5TaVdaO7cIGwhPY_o&callback=initMap"></script>
+    <script src="weather.js"></script>
+</body>
+
+</html>
