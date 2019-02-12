@@ -124,12 +124,22 @@ html {
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
+body, html {
+	height: 100%;
+  }
 body {
 	line-height: 1;
 	font-family: sans-serif;
+
+}
+
+main {
 	background-image: url('https://styles.redditmedia.com/t5_2rfz5/styles/bannerBackgroundImage_inz1erhy4yo01.jpg?format=pjpg&s=5003b342e9b4ce10dddf4c340fa50cb536d70f31');
-	background-size:1366px 660px;
+	padding: 10px;
+	height: 100%; 
+	background-position: center;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 ol,
