@@ -53,35 +53,37 @@ for (let i = 0; i < list.length; i++) {
 
 let order = 0;
 function animateLiOut(order, str) {
-    if (str == "accept") {
-        list[order].style = "transform:translateX(1000px)";
-    }
-    if (str == "reject") {
-        list[order].style = "transform:translateX(-1000px)";
-    }
+   
     return new Promise((resolve, reject) => {
-        if (order < list.length) {
-            setTimeout(() => {
-                resolve();
-            }, 500);
+        
+        if (str == "accept") {
+            list[order].style = "transform:translateX(1000px)";
         }
-        else {
-            reject(error);
+        if (str == "reject") {
+            list[order].style = "transform:translateX(-1000px)";
         }
+
+        list[order].addEventListener('transitionend', function (e) {
+            resolve();
+        })
     });
 }
-
 
 function animateNextLiIntoView(nextLi) {
     list[nextLi].style = "opacity: 1; transform: scale(1);";
 }
 
+var pending = false;
+
 function thumbsX(currentClass) {
-    //console.log(currentClass);
+    if (pending) return;
+    pending = true
     animateLiOut(order, currentClass)
         .then(() => {
-            animateNextLiIntoView(order + 1);
-            return order++;
+            animateNextLiIntoView(order +1);
+            order++;
+            pending = false;
+
         })
         .catch(() => {
             console.log('%cNo more Pirate flags to thumbs up or down !!!','font-weight:bold;color:red');
