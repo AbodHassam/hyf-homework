@@ -125,8 +125,8 @@ nextButton.addEventListener("click", nextEvent = () => {
             console.log('%cNo more questions !!!', 'font-weight:bold;color:red');
             let nomore = document.querySelector('#nomore');
             nomore.style.display = 'block';
-            nomore.innerHTML += '<b>No more questions !!!</b>';
-
+            nomore.innerHTML = '<b>No more questions !!!</b>';
+            nextButton.removeEventListener("click", nextEvent);
             //questions.innerHTML += '<p id="nomore">No more questions</p>';
         })
 })
