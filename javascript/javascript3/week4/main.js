@@ -84,6 +84,9 @@ scoreButton.addEventListener("click", event = () => {
     getScore();
     console.log(timer.innerHTML * 100);
     clearInterval(interval);
+    scoreButton.style.display = 'none';
+    nextButton.style.display = 'none';
+    nomore.style.display = 'none';
 
 })
 
@@ -120,7 +123,10 @@ nextButton.addEventListener("click", nextEvent = () => {
         })
         .catch(() => {
             console.log('%cNo more questions !!!', 'font-weight:bold;color:red');
-            //let questions = document.querySelector('.questions');
+            let nomore = document.querySelector('#nomore');
+            nomore.style.display = 'block';
+            nomore.innerHTML += '<b>No more questions !!!</b>';
+
             //questions.innerHTML += '<p id="nomore">No more questions</p>';
         })
 })

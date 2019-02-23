@@ -156,9 +156,11 @@ canvas {
 }
 
 #nomore{
+
+    width: 200px;
+    display: none;
+    margin-left: 550px;
     color:red;
-    position: absolute;
-    top: 30px;
     padding: 12px;
     border-radius: 8px;
     background-color: #f4f4f4;
