@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.bottom{
+    margin: 5% 0 5% 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 25px 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a:hover{
+    color: #969696;
+}
+
+th,td{
+    text-align: left;
+}
+
+/* title */
+#header img{
+    width: 250px;
+}
+
+#header{
+    text-align:center;
+    height: 177px;
+    background-color: black;
+    background-image: url(https://vignette.wikia.nocookie.net/onepiece/images/5/55/Module-header-bg-transparent.png/revision/latest?cb=20160516120413);
+    padding-top: 20PX;
+    padding-bottom: 20PX;
+    border-bottom: 1px solid rgb(239, 239, 239);
+    font-size: 18.5px;
+    border-bottom: 2px solid rgb(130, 130, 130);
+}
+
+#header p{
+    font-size: 16.5px;
+    color: rgb(130, 130, 130);
+}
+
+/*navigation bar*/
+nav{
+    padding-left: 14%;
+    overflow: hidden;
+    text-align: center;
+}
+
+/*figure*/
+#figure{
+    clear: both;
+    width: 100%;
+    margin-bottom: 2.7%;
+    border: 2px solid rgb(130, 130, 130);
+}
+
+/*columns*/
+.row h2 , h4{
+    text-align: center;
+}
+
+.table{
+    border:  4px solid rgb(130, 130, 130);
+    padding: 15px;
+}
+
+.table h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.table img{
+    border: 1px solid rgb(130, 130, 130);
+}
+
+.col-1{
+    margin: 5% 5% 5% 5%;
+}
+
+.col-1 p{
+    font-size: 13px;
+}
+
+.col-1 img{
+    width: 100%;
+    margin: 30px 0 30px 0;
+}
+
+.col-2{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.col-2 div div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-image: url(https://vignette.wikia.nocookie.net/onepiece/images/5/50/Wiki-background/revision/latest?cb=20171102123502);
+}
+
+.icons img {
+    width: 90%;
+    margin: 5%;
+}
+
+.icons0{
+    border: 2px solid #a14c0c;
+    
+}
+
+/*footer*/
+footer{
+    background-image: url(https://cdn-cms.bnea.io/sites/default/files/games/game-background/game-background_64.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    color: white;
+    display: flex ;
+    justify-content: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+footer div {
+    width: 200px;
+}
+
+footer iframe{
+    width: 200px;
+}
+
+.line{
+    border-bottom: 1px solid #969696;
+    padding-bottom: 20px;
+}
+
+/* For mobile phones: */
+[class*="col"] {
+    width: 90%;
+}
+
+/* For desktop: */
+@media screen and (min-width:900px) {
+    .col-0 a {float: left; text-align: center;}
+    .col-1 {width: 25%;}
+    .col-2 {width: 42%;}
+    .row{display: flex; justify-content:center;}
+    .row h2 , h4{
+        text-align: left;
+    }
+    footer{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: unset;
+    height: 500px;
+    text-align: left;
+    }
+    
+}
+
